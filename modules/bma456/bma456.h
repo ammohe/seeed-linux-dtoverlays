@@ -27,7 +27,7 @@
 #include <linux/iio/trigger_consumer.h>
 #include <linux/iio/triggered_buffer.h>
 
-#include "api_v2/bma456.h"
+#include "api/bma456.h"
 
 //#define DBG_PRINT(format, x...)	printk(KERN_INFO "[TST]%d:%s " format, __LINE__, __func__, ##x)
 #define DBG_FUNC(format, x...)		printk(KERN_INFO "[BMA]%s:" format"\n", __func__, ##x)
